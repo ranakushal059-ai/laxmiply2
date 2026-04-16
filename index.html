@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Laxmi Plywood & Hardware - Premium Plywood, Hardware, PVC Panels, Laminate, and Veneer in Virar West.">
+    <title>Laxmi Plywood & Hardware</title>
+
+    <!-- Google Fonts: Inter for that sharp, corporate sans-serif look -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="laxmi3.css">
+</head>
+
+<body>
+
+    <!-- Corporate Top Bar -->
+    <div class="top-bar">
+        <div class="container top-bar-container">
+            <span class="dealer"><i class="fas fa-map-marker-alt"></i> Narangi Bypass Road, Virar West</span>
+            <div class="top-bar-contact">
+                <span><i class="fas fa-phone-alt"></i> 9822428433</span>
+                <span><i class="fas fa-phone-alt"></i> 9284395837</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Navigation -->
+    <header id="header">
+        <div class="container nav-container">
+            <div class="logo">
+                <h1>LAXMI PLYWOOD & HARDWARE</h1>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#products">PRODUCTS</a></li>
+                    <li><a href="#about">ABOUT US</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-bg-image"></div>
+            <!-- Diagonal sharp corporate overlay -->
+            <div class="hero-shape-overlay"></div>
+
+            <div class="container hero-content hidden-on-scroll">
+                <h2>INNOVATION<br>MEETS DURABILITY</h2>
+                <p>Welcome to Laxmi Plywood & Hardware. We provide top-tier plywood, elegant laminates, veneers, PVC
+                    panels, and robust hardware for ambitious interiors.</p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary btn-large"
+                        onclick="document.getElementById('products').scrollIntoView({behavior: 'smooth'})">
+                        EXPLORE PRODUCTS <i class="fas fa-arrow-right" style="margin-left: 8px;"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Inspirations Section -->
+        <section id="inspirations" class="showcase-section bg-alt">
+            <div class="container">
+                <div class="section-heading hidden-on-scroll">
+                    <div class="heading-number">01</div>
+                    <h2>Design your interiors with Laxmi</h2>
+                </div>
+
+                <div class="showcase-gallery">
+                    <!-- Inspiration 1 -->
+                    <div class="showcase-card hidden-on-scroll clickable-item" data-title="Bedroom"
+                        data-desc="Transform your bedroom into a serene retreat with our premium structural and decorative materials, tailored for comfort & longevity."
+                        data-img="bedroom-interior-designs.jpg">
+                        <div class="showcase-img-wrap">
+                            <img src="bedroom-interior-designs.jpg" alt="Bedroom Interior">
+                        </div>
+                        <div class="showcase-info">
+                            <h3>Bedroom</h3>
+                            <div class="icon-btn"><i class="fas fa-arrow-right"></i></div>
+                        </div>
+                    </div>
+
+                    <!-- Inspiration 2 -->
+                    <div class="showcase-card hidden-on-scroll clickable-item" data-title="Living Room"
+                        data-desc="Make a lasting impression with a breathtaking living space, styled with our elegant laminates and veneers."
+                        data-img="livingroom-image1704392170527-6407.jpg" style="transition-delay: 100ms;">
+                        <div class="showcase-img-wrap">
+                            <img src="livingroom-image1704392170527-6407.jpg" alt="Living Room">
+                        </div>
+                        <div class="showcase-info">
+                            <h3>Living Room</h3>
+                            <div class="icon-btn"><i class="fas fa-arrow-right"></i></div>
+                        </div>
+                    </div>
+
+                    <!-- Inspiration 3 -->
+                    <div class="showcase-card hidden-on-scroll clickable-item" data-title="Kitchen"
+                        data-desc="Build your dream culinary space using our 100% waterproof and highly durable plywood and panel solutions."
+                        data-img="kitchen-image1704392131175-4572.jpg" style="transition-delay: 200ms;">
+                        <div class="showcase-img-wrap">
+                            <img src="kitchen-image1704392131175-4572.jpg" alt="Kitchen Space">
+                        </div>
+                        <div class="showcase-info">
+                            <h3>Kitchen</h3>
+                            <div class="icon-btn"><i class="fas fa-arrow-right"></i></div>
+                        </div>
+                    </div>
+
+                    <!-- Inspiration 4 -->
+                    <div class="showcase-card hidden-on-scroll clickable-item" data-title="Office"
+                        data-desc="Inspire productivity with a modern office setup defined by sharp aesthetics and robust architectural hardware."
+                        data-img="office-image1715923163378-1818.jpg" style="transition-delay: 300ms;">
+                        <div class="showcase-img-wrap">
+                            <img src="office-image1715923163378-1818.jpg" alt="Office Build">
+                        </div>
+                        <div class="showcase-info">
+                            <h3>Office</h3>
+                            <div class="icon-btn"><i class="fas fa-arrow-right"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Products Section -->
+        <section id="products" class="showcase-section">
+            <div class="container">
+                <div class="section-heading hidden-on-scroll">
+                    <div class="heading-number">02</div>
+                    <h2>Explore Laxmi Products</h2>
+                    <a href="#products" class="btn-outline">View All <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="showcase-gallery">
+                    <!-- Product 1 -->
+                    <div class="showcase-card hidden-on-scroll" 
+                        onclick="window.location.href='plywood.html'" style="cursor: pointer;">
+                        <div class="showcase-img-wrap">
+                            <img src="Plywood__d908d7dcf.jpg" alt="Plywood & Blockboard">
+                        </div>
+                        <div class="showcase-info">
+                            <h3>Plywood & Blockboard</h3>
+                            <div class="icon-btn"><i class="fas fa-arrow-right"></i></div>
+                        </div>
+                    </div>
+
+                    <!-- Product 2 -->
+                    <div class="showcase-card hidden-on-scroll clickable-item" data-title="Doors"
+                        data-desc="Premium engineered flush doors providing security, sound insulation, and a flawless finish for any interior."
+                        data-img="https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=600&auto=format&fit=crop"
+                        style="transition-delay: 100ms;">
+                        <div class="showcase-img-wrap">
+                            <img src="https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=600&auto=format&fit=crop"
+                                alt="Doors">
+                        </div>
+                        <div class="showcase-info">
+                            <h3>Doors</h3>
+                            <div class="icon-btn"><i class="fas fa-arrow-right"></i></div>
+                        </div>
+                    </div>
+
+                    <!-- Product 3 -->
+                    <div class="showcase-card hidden-on-scroll clickable-item" data-title="Veneers"
+                        data-desc="Authentic and exotic natural wood veneers bringing unparalleled warmth and texture to premium interiors."
+                        data-img="https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?q=80&w=600&auto=format&fit=crop"
+                        style="transition-delay: 200ms;">
+                        <div class="showcase-img-wrap">
+                            <img src="https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?q=80&w=600&auto=format&fit=crop"
+                                alt="Veneers">
+                        </div>
+                        <div class="showcase-info">
+                            <h3>Veneers</h3>
+                            <div class="icon-btn"><i class="fas fa-arrow-right"></i></div>
+                        </div>
+                    </div>
+
+                    <!-- Product 4 -->
+                    <div class="showcase-card hidden-on-scroll" 
+                        onclick="window.location.href='pvc.html'" style="cursor: pointer; transition-delay: 300ms;">
+                        <div class="showcase-img-wrap">
+                            <img src="pvc panal/WhatsApp Image 2026-03-07 at 11.15.58 AM.jpeg" alt="PVC Panels">
+                        </div>
+                        <div class="showcase-info">
+                            <h3>PVC Panels</h3>
+                            <div class="icon-btn"><i class="fas fa-arrow-right"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Bar -->
+        <section class="banner-cta hidden-on-scroll">
+            <div class="banner-overlay"></div>
+            <div class="container banner-content">
+                <h2>The door to healthy homes</h2>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <div class="section-title hidden-on-scroll">
+                    <h2>GET IN TOUCH</h2>
+                    <div class="underline"></div>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="contact-corporate-info hidden-on-scroll">
+                        <h3>Laxmi Plywood & Hardware</h3>
+                        <p class="desc">Reach out to us directly via phone or visit our store to experience the quality
+                            firsthand. We supply the best materials at strictly competitive pricing.</p>
+
+                        <div class="info-line">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <strong>Head Office & Store</strong>
+                                <span>Shop No-322/3B, Narangi Bypass Road,<br>Near old Viva College, Opp. ICICI
+                                    Bank,<br>Virar (W)</span>
+                            </div>
+                        </div>
+                        <div class="info-line">
+                            <i class="fas fa-phone-alt"></i>
+                            <div>
+                                <strong>Contact Numbers</strong>
+                                <span>+91 9822428433<br>+91 9284395837</span>
+                            </div>
+                        </div>
+                        <div class="info-line">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <strong>Business Hours</strong>
+                                <span>Mon-Sat | 9:00 AM - 9:00 PM</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-picture hidden-on-scroll" style="transition-delay: 200ms;">
+                        <!-- You can insert your specific shop image here! -->
+                        <img src="https://images.unsplash.com/photo-1577413159981-d1c0800cacc5?q=80&w=800&auto=format&fit=crop"
+                            alt="Plywood Shop Representative">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-grid">
+            <!-- Column 1 -->
+            <div class="footer-col">
+                <h4>Products</h4>
+                <ul class="footer-links">
+                    <li><a href="#">Plywood & Blockboard</a></li>
+                    <li><a href="#">Doors</a></li>
+                    <li><a href="#">Veneers</a></li>
+                    <li><a href="#">MDF and Board</a></li>
+                    <li><a href="#">Speciality Plywood</a></li>
+                    <li><a href="#">PVC</a></li>
+                    <li><a href="#">Laminate Wooden Flooring</a></li>
+                </ul>
+            </div>
+
+            <!-- Column 2 -->
+            <div class="footer-col">
+                <h4>Brands</h4>
+                <ul class="footer-links">
+                    <li><a href="#">Laxmi</a></li>
+                    <li><a href="#">Ecotec</a></li>
+                    <li><a href="#">Optima G</a></li>
+                    <li><a href="#">Solid Wood</a></li>
+                </ul>
+                <h4 style="margin-top: 20px;">Speciality Feature</h4>
+                <ul class="footer-links">
+                    <li><a href="#">Zero Emission</a></li>
+                    <li><a href="#">Fire Retardant</a></li>
+                    <li><a href="#">Water Proof</a></li>
+                </ul>
+            </div>
+
+            <!-- Column 3 -->
+            <div class="footer-col">
+                <h4>Inspiration</h4>
+                <div class="insp-subcols">
+                    <ul class="footer-links">
+                        <li class="col-head">Room Type</li>
+                        <li><a href="#">Bedroom</a></li>
+                        <li><a href="#">Kitchen</a></li>
+                        <li><a href="#">Living Room</a></li>
+                        <li><a href="#">Office</a></li>
+                    </ul>
+                    <ul class="footer-links">
+                        <li class="col-head">Furniture Type</li>
+                        <li><a href="#">Chair</a></li>
+                        <li><a href="#">Study Table</a></li>
+                        <li><a href="#">Sofa</a></li>
+                        <li><a href="#">Bed</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Column 4 -->
+            <div class="footer-col">
+                <h4>Quick links</h4>
+                <ul class="footer-links">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Investors</a></li>
+                    <li><a href="#">Sustainability</a></li>
+                    <li><a href="#">Blogs</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Find Dealers</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container footer-content">
+                <div class="footer-logo">
+                    <h2>LAXMI PLYWOOD & HARDWARE</h2>
+                </div>
+                <p>&copy; <span id="year"></span> Laxmi Plywood & Hardware. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Interactive Modal -->
+    <div id="quickViewModal" class="modal-overlay">
+        <div class="modal-card">
+            <button class="modal-close" aria-label="Close modal"><i class="fas fa-times"></i></button>
+            <div class="modal-body">
+                <div class="modal-img-container">
+                    <img id="modalImg" src="" alt="Product/Room Quick View">
+                </div>
+                <div class="modal-content">
+                    <h2 id="modalTitle">Title</h2>
+                    <p id="modalDesc">Description goes here.</p>
+                    <a href="#contact" class="btn btn-primary"
+                        onclick="document.getElementById('quickViewModal').classList.remove('active');">Enquire Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Custom JS -->
+    <script src="laxmi3.js"></script>
+</body>
+
+</html>
